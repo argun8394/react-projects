@@ -8,6 +8,7 @@ function Card(){
             <div className="cards">
                 <h2>{data[0].title}</h2>
             </div>
+            <img src={data[0].image} alt={data[0].title}/>
             
         </div>
     );
